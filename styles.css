@@ -1,0 +1,52 @@
+body {
+    background-color: goldenrod;
+    font-family: Georgia, serif;
+    color: #40300A;
+}
+
+a.previous {
+    float: left;
+    padding-right: 1em;
+}
+
+a.next {
+    float: right;
+    padding-left: 1em;
+}
+
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #4A4D22;
+}
+
+header footer {
+    display: inline-block;
+    width: 100%;
+}
+
+img {
+    float: left;
+    margin-right: 2em;
+}
+
+p {
+    float: none;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+}
+
+h3 {
+    width: 100%;
+    float: left;
+}
