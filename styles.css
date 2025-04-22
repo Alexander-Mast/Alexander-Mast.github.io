@@ -20,7 +20,7 @@ a {
     color: #4A4D22;
 }
 
-header footer {
+header, footer {
     display: inline-block;
     width: 100%;
 }
@@ -30,23 +30,33 @@ img {
     margin-right: 2em;
 }
 
-p {
-    float: none;
-}
-
 h1 {
     justify-content: center;
     display: flex;
     padding-left: 1em;
     padding-right: 1em;
+    font-size: 3em;
 }
 
 h2 {
     justify-content: center;
     display: flex;
+    font-size: 2em;
 }
 
 h3 {
     width: 100%;
-    float: left;
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+p, h3 {
+    float: none;
+}
+
+p.reading {
+    font-style: italic;
 }
